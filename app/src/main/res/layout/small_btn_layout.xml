@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/alp_gray"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <TextView android:id="@+id/ok_btn"
+              android:text="@string/ok_str"
+              android:textSize="16sp"
+              android:textColor="@color/alp_white"
+              android:background="@drawable/rect_line_2px_gray"
+              android:gravity="center"
+              android:layout_width="48dp" android:layout_height="36dp"/>
+
+</LinearLayout>
