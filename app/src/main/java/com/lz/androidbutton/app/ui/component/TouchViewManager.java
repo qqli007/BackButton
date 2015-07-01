@@ -155,10 +155,12 @@ public class TouchViewManager {
     private View.OnClickListener actionPanelOnClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-
-            showSmallBtnView();
-
             int id = v.getId();
+
+            if (id != R.id.back_btn) {
+                showSmallBtnView();
+            }
+
             switch (id) {
                 case R.id.back_btn:
                     Log.d("0-0", "backEvent");
